@@ -1,0 +1,27 @@
+{
+  "name": "FIT Checker",
+  "version": "0.5.6",
+  "description": "Kontroluje za vás aktuální stav hodnocení v předmětech",
+  "icons": {
+      "16": "media/img/icon-16.png",
+      "48": "media/img/icon-48.png",
+      "128": "media/img/icon-128.png"
+      },
+  
+  "update_url": "http://kecej.cz/fit-checker/updates.xml",
+
+  "browser_action": {
+    "default_icon": "media/img/icon-16.png",
+    "default_title": "FIT Checker",
+    "default_popup": "popup.html"
+  },
+
+  //"homepage_url": "http://fit-checker.kecej.cz",
+  "options_page": "settings.html",
+  "permissions": [
+     "tabs",
+     "https://edux.fit.cvut.cz/*",
+     "https://kos.cvut.cz/*"
+     // "https://www.progtest.cz/*"
+  ]
+}

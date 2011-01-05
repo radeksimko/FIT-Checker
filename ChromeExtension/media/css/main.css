@@ -1,0 +1,36 @@
+body {font-family:Arial, sans-serif;font-size:0.8em;width:460px}
+table {font-size:0.9em;margin:0 auto; border-spacing:0;border:none}
+table tr td {padding:2px 5px;border:none;border-bottom:1px solid #CCC}
+table tr td:nth-child(1) {text-align:right}
+table tr td:nth-child(1):after {content: ":"}
+table tr td:nth-child(2) {text-align:left;font-weight:bold}
+table tr:last-child td {border:none}
+table tr:nth-child(odd) td {background:#EDEDED}
+fieldset {border-radius:4px;border:1px solid #CCC}
+fieldset legend {color:#666}
+a {color:#03C}
+a:hover {text-decoration:none;color:#036}
+
+div#user {float:left;font-weight:bold;color:#666;background: url("../img/user.png") left no-repeat;padding-left:20px}
+div#status {float:right;background: url("../img/loader.gif") right no-repeat;padding-right:20px}
+div#content {clear:both;font-size:1.1em;padding-top:5px;text-align:center;position:relative}
+div#status.ok {background:url("../img/ok.png") right no-repeat}
+div#status.error {background:url("../img/error.png") right no-repeat}
+div.points {position:absolute;top:5px;right:5px;font-size:3.5em;font-family:Verdana,Arial,sans-serif}
+
+a.edux-link {display:block;position:absolute;right:3px;bottom:3px;font-size:0.85em}
+
+body.settings div#status {float:none;border-top:1px solid #EDEDED;border-bottom:1px solid #EDEDED;background-position:left;padding:5px;padding-left:25px}
+
+div#menu {clear:both;font-size:0.9em;border-bottom:1px solid #CCC;height:26px;text-align:left;padding-top:10px}
+div#menu ul {margin:0;padding:0;padding-left:5px}
+div#menu ul li {float:left;margin-right:5px;list-style:none}
+div#menu ul li a {color:#666;text-decoration:none;display:block;background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(232,232,232)), color-stop(1, rgb(255,255,255)));padding:5px;border:1px solid #CCC;border-bottom:none;border-radius:3px 3px 0 0;font-weight:bold}
+div#menu ul li.current a {color:#333;text-decoration:none;padding-bottom:6px;background:-webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(232,232,232)));}
+
+div#menu ul li a.orange {background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(252,217,151)), color-stop(1, rgb(255,255,255)))}
+div#menu ul li.current a.orange {background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(252,217,151)))}
+div#menu ul li a.green {background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(185,252,151)), color-stop(1, rgb(255,255,255)))}
+div#menu ul li.current a.green {background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(185,252,151)))}
+div#menu ul li a.red {background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(250,142,142)), color-stop(1, rgb(255,255,255)))}
+div#menu ul li.current a.red {background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(250,142,142)))}
